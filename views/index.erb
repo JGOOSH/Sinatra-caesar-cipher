@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <style>
+      body {
+        background: pink;
+      }
+    </style>
+    <title> Caesar Cipher </title>
+  </head>
+  <form method="post" action="/">
+    <input type="text" name="string" placeholder="Enter your string">
+    <input type="number" name="shift" placeholder="Enter the shift">
+    <input type="submit" value="Encrypt">
+  </form>
+
+  <body>
+    <p>
+        Crypt : <%= @output %>
+    </p>
+  </body>
+</html>
